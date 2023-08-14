@@ -1,6 +1,6 @@
 package org.support.project.common.statistic;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.Map;
 
 import org.junit.Test;
-import org.support.project.common.statistic.Statistics;
 import org.support.project.common.util.PropertyUtil;
 
 public class StatisticsTest {

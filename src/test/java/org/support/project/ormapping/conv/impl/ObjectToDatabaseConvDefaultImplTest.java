@@ -1,9 +1,8 @@
 package org.support.project.ormapping.conv.impl;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-import org.support.project.ormapping.conv.impl.ObjectToDatabaseConvDefaultImpl;
 
 public class ObjectToDatabaseConvDefaultImplTest {
 

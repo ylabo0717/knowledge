@@ -1,17 +1,9 @@
 package org.support.project.knowledge.entity;
 
-import org.support.project.knowledge.entity.gen.GenServiceConfigsEntity;
-
-import java.util.List;
-import java.util.Map;
-
-import org.support.project.common.bean.ValidateError;
 import org.support.project.di.Container;
 import org.support.project.di.DI;
 import org.support.project.di.Instance;
-
-import java.io.InputStream;
-import java.sql.Timestamp;
+import org.support.project.knowledge.entity.gen.GenServiceConfigsEntity;
 
 
 /**

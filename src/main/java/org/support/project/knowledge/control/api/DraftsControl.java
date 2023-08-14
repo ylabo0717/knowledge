@@ -1,7 +1,5 @@
 package org.support.project.knowledge.control.api;
 
-import net.arnx.jsonic.JSONException;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,9 +19,6 @@ import org.support.project.web.common.HttpStatus;
 import org.support.project.web.control.GetApiControl;
 import org.support.project.web.control.service.Delete;
 import org.support.project.web.control.service.Get;
-import org.support.project.web.control.service.Post;
-import org.support.project.web.control.service.Put;
-import org.support.project.web.exception.InvalidParamException;
 import org.support.project.web.filter.ControlManagerFilter;
 
 @DI(instance = Instance.Prototype)

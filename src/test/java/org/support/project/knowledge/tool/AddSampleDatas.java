@@ -19,7 +19,6 @@ import org.support.project.knowledge.dao.ExGroupsDao;
 import org.support.project.knowledge.dao.gen.DatabaseControlDao;
 import org.support.project.knowledge.deploy.InitDB;
 import org.support.project.ormapping.common.DBUserPool;
-import org.support.project.ormapping.tool.dao.InitializeDao;
 import org.support.project.web.config.AppConfig;
 import org.support.project.web.config.GroupRoleType;
 import org.support.project.web.dao.UserGroupsDao;

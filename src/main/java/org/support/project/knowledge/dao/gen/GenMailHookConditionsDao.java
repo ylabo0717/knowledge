@@ -1,26 +1,18 @@
 package org.support.project.knowledge.dao.gen;
 
+import java.sql.Timestamp;
 import java.util.List;
 
-import java.sql.Timestamp;
-
-
-import org.support.project.knowledge.entity.MailHookConditionsEntity;
-import org.support.project.ormapping.dao.AbstractDao;
-import org.support.project.ormapping.exception.ORMappingException;
-import org.support.project.ormapping.common.SQLManager;
-import org.support.project.ormapping.common.DBUserPool;
-import org.support.project.ormapping.common.IDGen;
-import org.support.project.ormapping.config.ORMappingParameter;
-import org.support.project.ormapping.config.Order;
-import org.support.project.ormapping.connection.ConnectionManager;
-import org.support.project.common.util.PropertyUtil;
+import org.support.project.aop.Aspect;
 import org.support.project.common.util.DateUtils;
-
 import org.support.project.di.Container;
 import org.support.project.di.DI;
 import org.support.project.di.Instance;
-import org.support.project.aop.Aspect;
+import org.support.project.knowledge.entity.MailHookConditionsEntity;
+import org.support.project.ormapping.common.DBUserPool;
+import org.support.project.ormapping.common.SQLManager;
+import org.support.project.ormapping.config.Order;
+import org.support.project.ormapping.dao.AbstractDao;
 
 /**
  * メールから投稿する条件

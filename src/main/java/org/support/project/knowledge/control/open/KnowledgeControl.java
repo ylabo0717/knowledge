@@ -76,12 +76,10 @@ import org.support.project.web.control.service.Post;
 import org.support.project.web.dao.SystemConfigsDao;
 import org.support.project.web.dao.UserConfigsDao;
 import org.support.project.web.dao.UsersDao;
-import org.support.project.web.dao.ReadMarksDao;
 import org.support.project.web.entity.GroupsEntity;
 import org.support.project.web.entity.SystemConfigsEntity;
 import org.support.project.web.entity.UserConfigsEntity;
 import org.support.project.web.entity.UsersEntity;
-import org.support.project.web.entity.ReadMarksEntity;
 import org.support.project.web.exception.InvalidParamException;
 
 /**

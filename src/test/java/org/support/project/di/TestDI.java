@@ -6,7 +6,6 @@ import static org.junit.Assert.fail;
 import org.junit.Test;
 import org.support.project.common.log.Log;
 import org.support.project.common.log.LogFactory;
-import org.support.project.di.Container;
 import org.support.project.di.exception.DIException;
 
 public class TestDI {

@@ -5,7 +5,6 @@ import java.util.List;
 import org.support.project.di.Container;
 import org.support.project.di.DI;
 import org.support.project.di.Instance;
-import org.support.project.ormapping.common.SQLManager;
 import org.support.project.ormapping.gen.dao.gen.GenClobTableDao;
 import org.support.project.ormapping.gen.entity.ClobTableEntity;
 

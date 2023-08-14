@@ -1,10 +1,9 @@
 package org.support.project.web.config;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.util.List;
 
-import org.junit.Test;
 import org.support.project.web.bean.Batchinfo;
 import org.support.project.web.bean.LabelValue;
 

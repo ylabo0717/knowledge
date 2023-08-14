@@ -20,7 +20,6 @@ import org.support.project.common.util.PasswordUtil;
 import org.support.project.common.util.StringUtils;
 import org.support.project.knowledge.config.AppConfig;
 import org.support.project.knowledge.deploy.Migrate;
-import org.support.project.knowledge.logic.MailLogic;
 import org.support.project.ormapping.tool.dao.InitializeDao;
 import org.support.project.web.dao.LdapConfigsDao;
 import org.support.project.web.dao.MailConfigsDao;

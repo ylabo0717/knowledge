@@ -3,7 +3,6 @@ package org.support.project.web.dao;
 import org.support.project.di.Container;
 import org.support.project.di.DI;
 import org.support.project.di.Instance;
-
 import org.support.project.web.dao.gen.GenSystemAttributesDao;
 
 /**

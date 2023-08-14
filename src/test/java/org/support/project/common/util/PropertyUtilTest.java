@@ -1,6 +1,10 @@
 package org.support.project.common.util;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +12,6 @@ import java.util.Map;
 
 import org.junit.Test;
 import org.support.project.common.classanalysis.ClassAnalysisTestTarget;
-import org.support.project.common.util.PropertyUtil;
 
 public class PropertyUtilTest {
 

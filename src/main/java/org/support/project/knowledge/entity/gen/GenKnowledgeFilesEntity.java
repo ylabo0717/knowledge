@@ -1,14 +1,11 @@
 package org.support.project.knowledge.entity.gen;
 
-import java.io.Serializable;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Map;
-
 import java.io.InputStream;
+import java.io.Serializable;
 import java.sql.Timestamp;
-
-
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 import org.support.project.common.bean.ValidateError;
 import org.support.project.common.validate.Validator;

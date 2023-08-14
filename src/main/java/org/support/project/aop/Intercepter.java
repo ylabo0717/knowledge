@@ -35,8 +35,7 @@ public class Intercepter implements InvocationHandler, MethodHandler {
                 // クラスにAspectが登録されていればそれを実行(そしてリターン)
                 Class<? extends Advice> adviceClass = aspect.advice();
                 Advice advice = adviceClass.newInstance();
-                Object ret = advice.invoke(target, method, args);
-                return ret;
+                return advice.invoke(target, method, args);
             }
 
             aspect = method.getAnnotation(Aspect.class);
@@ -44,8 +43,7 @@ public class Intercepter implements InvocationHandler, MethodHandler {
                 // メソッドにAspectが登録されていればそれを実行(そしてリターン)
                 Class<? extends Advice> adviceClass = aspect.advice();
                 Advice advice = adviceClass.newInstance();
-                Object ret = advice.invoke(target, method, args);
-                return ret;
+                return advice.invoke(target, method, args);
             }
 
             Method intfMethod = getAnnotationMethod(method.getName(), method.getParameterTypes());

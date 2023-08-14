@@ -1,7 +1,6 @@
 package org.support.project.common.util;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
 
 import java.text.ParseException;
 import java.util.Calendar;

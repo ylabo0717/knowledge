@@ -1,10 +1,10 @@
 package org.support.project.web.dao.gen;
 
-import org.support.project.ormapping.dao.AbstractDao;
 import org.support.project.common.log.Log;
 import org.support.project.common.log.LogFactory;
 import org.support.project.di.DI;
 import org.support.project.di.Instance;
+import org.support.project.ormapping.dao.AbstractDao;
 
 /**
  * ユーザ

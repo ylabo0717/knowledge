@@ -7,7 +7,6 @@ import org.support.project.di.Instance;
 
 import org.support.project.knowledge.dao.gen.GenTokensDao;
 import org.support.project.knowledge.entity.TokensEntity;
-import org.support.project.ormapping.common.SQLManager;
 
 /**
  * 認証トークン

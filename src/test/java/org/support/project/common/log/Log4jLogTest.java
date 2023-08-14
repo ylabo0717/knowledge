@@ -5,7 +5,6 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.support.project.common.config.AppConfig;
 import org.support.project.common.log.impl.log4j.Log4jLogInitializerImpl;
 
 public class Log4jLogTest {

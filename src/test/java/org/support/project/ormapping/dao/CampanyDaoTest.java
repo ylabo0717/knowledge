@@ -7,7 +7,6 @@ import java.util.List;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.support.project.common.logic.H2DBServerLogic;
 import org.support.project.di.Container;
 import org.support.project.ormapping.gen.dao.CampanyDao;
 import org.support.project.ormapping.gen.entity.CampanyEntity;

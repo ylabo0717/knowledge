@@ -1,4 +1,4 @@
-version: '2.1'
+version: "2.1"
 
 services:
   maven:
@@ -9,15 +9,17 @@ services:
       args:
         - https_proxy
         - http_proxy
+        - no_proxy
     command: mvn -v
     environment:
-      KNOWLEDGE_TEST_MAIL: 'false'
+      KNOWLEDGE_TEST_MAIL: "false"
       MAVEN_CONFIG: /var/maven/.m2
       https_proxy: ${https_proxy}
       http_proxy: ${http_proxy}
       HOME: /usr/src/mymaven/
+      no_proxy: ${no_proxy}
     working_dir: /usr/src/mymaven/
-    entrypoint: ''
+    entrypoint: ""
     volumes:
       - $PWD:/usr/src/mymaven
       - ${KNOWLEDGE_HOME}.m2:/root/.m2
@@ -29,14 +31,15 @@ services:
       - 8009:8009
     expose:
       - 8080
-#    links:
-#      - mailcatcher
-#      - postgres
-#      - elasticsearch
-#      - kibana
+    #    links:
+    #      - mailcatcher
+    #      - postgres
+    #      - elasticsearch
+    #      - kibana
     environment:
       https_proxy: ${https_proxy}
       http_proxy: ${http_proxy}
+      no_proxy: ${no_proxy}
     volumes:
       - ${KNOWLEDGE_HOME}.knowledge:/root/.knowledge
       - $PWD/target/webapps:/usr/local/tomcat/webapps
@@ -56,7 +59,7 @@ services:
     expose:
       - 5432
     environment:
-      POSTGRES_PASSWORD: '1qazxsw2'
+      POSTGRES_PASSWORD: "1qazxsw2"
     volumes:
       - ${KNOWLEDGE_HOME}.postgres:/var/lib/postgresql/data
 
@@ -66,14 +69,14 @@ services:
       - 9200:9200
       - 9300:9300
     environment:
-      transport.host: '0.0.0.0'
-      discovery.zen.minimum_master_nodes: '1'
-      xpack.security.enabled: 'false'
-      xpack.monitoring.enabled: 'true'
-      xpack.watcher.enabled: 'false'
-      xpack.graph.enabled: 'false'
-      xpack.monitoring.history.duration: '1d'
-      ES_JAVA_OPTS: '-Xms512m -Xmx512m'
+      transport.host: "0.0.0.0"
+      discovery.zen.minimum_master_nodes: "1"
+      xpack.security.enabled: "false"
+      xpack.monitoring.enabled: "true"
+      xpack.watcher.enabled: "false"
+      xpack.graph.enabled: "false"
+      xpack.monitoring.history.duration: "1d"
+      ES_JAVA_OPTS: "-Xms512m -Xmx512m"
     volumes:
       - ${KNOWLEDGE_HOME}.es_data:/usr/share/elasticsearch/data
 
@@ -84,7 +87,6 @@ services:
     ports:
       - 5601:5601
     environment:
-      ELASTICSEARCH_URL: 'http://elasticsearch:9200'
-      XPACK_MONITORING_ELASTICSEARCH_URL: 'http://elasticsearch:9200'
-      XPACK_SECURITY_ENABLED: 'false'
-
+      ELASTICSEARCH_URL: "http://elasticsearch:9200"
+      XPACK_MONITORING_ELASTICSEARCH_URL: "http://elasticsearch:9200"
+      XPACK_SECURITY_ENABLED: "false"

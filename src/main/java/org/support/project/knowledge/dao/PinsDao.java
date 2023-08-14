@@ -1,5 +1,7 @@
 package org.support.project.knowledge.dao;
 
+import java.sql.Timestamp;
+
 import org.support.project.aop.Aspect;
 import org.support.project.common.util.DateUtils;
 import org.support.project.di.Container;
@@ -7,8 +9,6 @@ import org.support.project.di.DI;
 import org.support.project.di.Instance;
 import org.support.project.knowledge.dao.gen.GenPinsDao;
 import org.support.project.knowledge.entity.PinsEntity;
-
-import java.sql.Timestamp;
 
 /**
  * ピン

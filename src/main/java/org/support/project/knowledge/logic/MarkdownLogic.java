@@ -1,23 +1,9 @@
 package org.support.project.knowledge.logic;
 
-import io.github.gitbucket.markedj.Marked;
-import io.github.gitbucket.markedj.Renderer;
-import io.github.gitbucket.markedj.Options;
-
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.Reader;
-import java.nio.charset.Charset;
 import java.util.Date;
 
 import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
 
-import org.pegdown.Extensions;
-import org.pegdown.LinkRenderer;
-import org.pegdown.PegDownProcessor;
-import org.pegdown.ast.AnchorLinkNode;
 import org.support.project.common.exception.ParseException;
 import org.support.project.common.log.Log;
 import org.support.project.common.log.LogFactory;
@@ -27,6 +13,10 @@ import org.support.project.di.DI;
 import org.support.project.di.Instance;
 import org.support.project.knowledge.vo.MarkDown;
 import org.support.project.web.logic.SanitizingLogic;
+
+import io.github.gitbucket.markedj.Marked;
+import io.github.gitbucket.markedj.Options;
+import io.github.gitbucket.markedj.Renderer;
 
 @DI(instance = Instance.Singleton)
 public class MarkdownLogic {

@@ -2,14 +2,12 @@ package org.support.project.ormapping.gen.dao.gen;
 
 import java.util.List;
 
-import java.sql.Timestamp;
 
 import org.support.project.ormapping.gen.entity.AutoNoEntity;
 import org.support.project.ormapping.dao.AbstractDao;
 import org.support.project.ormapping.exception.ORMappingException;
 import org.support.project.ormapping.common.SQLManager;
 import org.support.project.ormapping.common.DBUserPool;
-import org.support.project.ormapping.common.IDGen;
 import org.support.project.ormapping.config.ORMappingParameter;
 import org.support.project.ormapping.connection.ConnectionManager;
 import org.support.project.common.util.PropertyUtil;

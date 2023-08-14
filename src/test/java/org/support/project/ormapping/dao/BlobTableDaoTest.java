@@ -7,7 +7,6 @@ import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.support.project.common.logic.H2DBServerLogic;
 import org.support.project.common.util.FileUtil;
 import org.support.project.ormapping.gen.dao.BlobTableDao;
 import org.support.project.ormapping.gen.entity.BlobTableEntity;

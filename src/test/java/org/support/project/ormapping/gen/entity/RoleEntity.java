@@ -1,7 +1,5 @@
 package org.support.project.ormapping.gen.entity;
 
-import java.sql.Timestamp;
-
 import org.support.project.di.Container;
 import org.support.project.di.DI;
 import org.support.project.di.Instance;

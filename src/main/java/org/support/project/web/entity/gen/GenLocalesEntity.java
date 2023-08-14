@@ -1,13 +1,10 @@
 package org.support.project.web.entity.gen;
 
 import java.io.Serializable;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Map;
-
 import java.sql.Timestamp;
-
-
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 import org.support.project.common.bean.ValidateError;
 import org.support.project.common.validate.Validator;

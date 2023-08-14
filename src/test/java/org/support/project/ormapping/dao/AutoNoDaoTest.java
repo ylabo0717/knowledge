@@ -6,7 +6,6 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.support.project.common.log.Log;
 import org.support.project.common.log.LogFactory;
-import org.support.project.common.logic.H2DBServerLogic;
 import org.support.project.ormapping.gen.dao.AutoNoDao;
 import org.support.project.ormapping.gen.entity.AutoNoEntity;
 

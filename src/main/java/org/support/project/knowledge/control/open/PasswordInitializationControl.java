@@ -1,7 +1,6 @@
 package org.support.project.knowledge.control.open;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import org.support.project.common.bean.ValidateError;

@@ -11,7 +11,7 @@
     "marked": "0.3.4",
     "highlightjs": "8.9.1",
     "bootbox": "4.4.0",
-    "bootstrap-tagsinput": "0.4.2",
+    "bootstrap-tagsinput": "https://github.com/bootstrap-tagsinput/bootstrap-tagsinput.git#0.8.0",
     "bootstrap3-typeahead": "3.1.1",
     "bootstrap-fileinput": "4.2.8",
     "bootstrap-datepicker": "1.5.1",

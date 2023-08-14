@@ -4,16 +4,8 @@
 
 
 ## About
-- **UNOFFICIAL** Free Knowledge Management System
+- Free Knowledge Management System
 - [landing page and Online manual](https://information-knowledge.support-project.org/)
-- As original repository does not look to be maintained, I update it unofficially.
-
-### Differences
-
-- [Dialog support](https://github.com/support-project/knowledge/pull/1104)
-- [`<details>` tag support](https://github.com/support-project/knowledge/pull/1107)
-- [Simplify search result ](https://github.com/support-project/knowledge/pull/1110)
-
 
 ## Support
 - **日本語での質問は、以下のサイトに登録してください(海外からのアクセスが多くなったため)**
@@ -35,37 +27,6 @@
 
 ## How to initial set up
 - Please show the [wiki page](https://github.com/support-project/knowledge/wiki)
-
-
-## Developer manual
-
-### Build with Eclipse & Tomcat
-
-You can read how to develop with Eclipse & Tomcat by [this article](http://koda3.hatenablog.com/entry/2015/04/08/061130).
-Here is a short summary:
-
-- Import to Eclipse
-  - Download Eclipse
-  - Clone this repository
-  - Run Eclipse, specify JRE 1.8
-  - Import Knowledge directory by "File > Import > Maven > Existing Maven Projects"
-- Run in Eclipse
-  - Download tomcat v8
-  - Set up tomcat v8 according to Eclipse Servers view
-  - Add tomcat to Eclipse
-  - Right click and start
-- Access to http://localhost:8080/knowledge
-
-### Build manually
-
-You can create war file by `launch.sh` with some modifications.
-Also you need docker and docker-compose.
-See https://github.com/support-project/knowledge/pull/1100 about `launch.sh` modifications.
-
-
-### ER diagram
-
-You can see ER diagram at document/database (in Japanese).
 
 ## vulnerability testing
 - vulnerability testing with VAddy
