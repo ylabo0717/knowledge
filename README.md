@@ -21,13 +21,18 @@ $ mvn install -DskipTests=true -Dmaven.javadoc.skip=true -e -Djava.net.useSystem
 ## Debug
 
 1. Download Eclipse
-2. Download the following from the Eclipse Market place
+2. Download the following from the Eclipse Market place and restart Eclipse
    - Eclipse Tomcat Plugin 9.1.4
    - Eclipse Web Developer Tools 3.30
    - Eclipse JST Server Adapters (Apache Tomcat, JO nAs, J2EE) Luna
    - Eclipse Enterorise Java and Web Developer Tools3.30
-3. Set Java in Eclipse Preferences to JDK8(1.8) (download if not available)
-4. Download Tomcat9 locally and set it as Tomcat Server
+3. Set Java in Eclipse Preferences to JDK8(1.8) 
+4. Download [Tomcat9](https://tomcat.apache.org/download-90.cgi) locally and set it as Tomcat Server
+
+
+![Alt text](doc/AddTomcatServerToEclipse.png)
+
+
 5. Add "Knowledge" to Tomcat Server and start the server with debug button
 6. Access with "http://localhost:8080/knowledge"
 
