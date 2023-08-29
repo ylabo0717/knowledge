@@ -21,3 +21,4 @@ out.txt
 .local
 .cache
 .config
+*.log

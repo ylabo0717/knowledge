@@ -30,7 +30,7 @@ $ mvn install -DskipTests=true -Dmaven.javadoc.skip=true -e -Djava.net.useSystem
 4. Download [Tomcat9](https://tomcat.apache.org/download-90.cgi) locally and set it as Tomcat Server
 
 
-![Alt text](doc/AddTomcatServerToEclipse.png)
+![Alt text](document/images/AddTomcatServerToEclipse.png)
 
 
 5. Add "Knowledge" to Tomcat Server and start the server with debug button
