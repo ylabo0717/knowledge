@@ -58,7 +58,7 @@ OpenJDK 64-Bit Server VM Corretto-11.0.20.8.1 (build 11.0.20+8-LTS, mixed mode)
 **CPMMAND**
 
 ```sh
-$ mvn install -DskipTests=true -Dmaven.javadoc.skip=true -e
+mvn install -DskipTests=true -Dmaven.javadoc.skip=true -e
 ```
 
 ### ER diagram
